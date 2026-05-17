@@ -119,32 +119,6 @@ mxbc/
 - 当前 HTTPS 校验为 `verify=False`，仅便于调试；生产环境建议配置证书校验。
 - 字段名（如 `连续涨停天数[20260515]`）可能随交易日变化，解析时请做兼容。
 
-## 上传到 GitHub
-
-在项目目录执行：
-
-```bash
-git init
-git add README.md iwencai_api.py hexin-v.js requirements.txt
-git commit -m "Initial commit: iwencai stock screener client"
-
-# 在 GitHub 网页新建空仓库后
-git remote add origin https://github.com/<用户名>/<仓库名>.git
-git branch -M main
-git push -u origin main
-```
-
-建议同时添加 `.gitignore`：
-
-```
-__pycache__/
-*.pyc
-.venv/
-.vscode/
-```
-
-大体积前端参考文件（`chameleon.js`、`index-*.js`、`vendor-*.js`）可按需决定是否纳入版本库。
-
 ## License
 
 未指定许可证时，默认保留所有权利；如需开源请自行添加 LICENSE 文件。
