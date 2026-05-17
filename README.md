@@ -20,7 +20,7 @@
 ## 安装
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/zjlhcnlay/iwencai
 cd iwencai
 pip install -r requirements.txt
 ```
