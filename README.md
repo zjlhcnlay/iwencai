@@ -77,7 +77,8 @@ const fields = buildFingerprint({
 const token = encodeHexinV(fields);
 ```
 
-算法参考：[chameleon.1.9.min.js](https://s.thsi.cn/js/chameleon/chameleon.1.9.min.js)
+算法参考：[chameleon.1.9.min.js]()
+https://s.thsi.cn/js/chameleon/chameleon.1.9.min.js
 
 ## 项目结构
 
