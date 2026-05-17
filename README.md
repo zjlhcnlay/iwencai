@@ -21,7 +21,7 @@
 
 ```bash
 git clone <你的仓库地址>
-cd mxbc
+cd iwencai
 pip install -r requirements.txt
 ```
 
@@ -83,7 +83,7 @@ https://s.thsi.cn/js/chameleon/chameleon.1.9.min.js
 ## 项目结构
 
 ```
-mxbc/
+iwencai/
 ├── iwencai_api.py    # 问财 API 客户端（主入口）
 ├── hexin-v.js        # hexin-v 加解密与指纹生成
 ├── requirements.txt  # Python 依赖
